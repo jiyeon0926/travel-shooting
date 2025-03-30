@@ -186,12 +186,18 @@
 - Spring Boot 3.4.1
 - Java 21
 - IntelliJ
+- Spring Security
+- JWT
+- JPA
+- QueryDSL
+- Thymeleaf
+- Open API
+  - Kakao Map API
+  - Kakao Pay API
+  - 경기데이터드림 경기도 으뜸 맛집 현황 API
+- Redis
 - MySQL
 - GitHub
-- Spring Security
-- Spring Boot Mail
-- Open API
-- Redis
 - AWS
 - Docker
 
