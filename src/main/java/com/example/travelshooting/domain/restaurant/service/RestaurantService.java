@@ -1,13 +1,13 @@
 package com.example.travelshooting.domain.restaurant.service;
 
-import com.example.travelshooting.common.Const;
+import com.example.travelshooting.domain.file.service.S3Service;
 import com.example.travelshooting.domain.restaurant.dto.GgRestaurantApiDto;
 import com.example.travelshooting.domain.restaurant.dto.GgRestaurantResDto;
 import com.example.travelshooting.domain.restaurant.dto.RestaurantResDto;
 import com.example.travelshooting.domain.restaurant.dto.RestaurantSearchResDto;
 import com.example.travelshooting.domain.restaurant.entity.Restaurant;
 import com.example.travelshooting.domain.restaurant.repository.RestaurantRepository;
-import com.example.travelshooting.domain.file.service.S3Service;
+import com.example.travelshooting.global.common.Const;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

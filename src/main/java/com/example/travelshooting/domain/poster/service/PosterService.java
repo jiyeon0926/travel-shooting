@@ -1,7 +1,5 @@
 package com.example.travelshooting.domain.poster.service;
 
-import com.example.travelshooting.enums.PaymentStatus;
-import com.example.travelshooting.enums.UserRole;
 import com.example.travelshooting.domain.payment.entity.Payment;
 import com.example.travelshooting.domain.payment.service.PaymentService;
 import com.example.travelshooting.domain.poster.dto.PosterResDto;
@@ -11,6 +9,8 @@ import com.example.travelshooting.domain.restaurant.entity.Restaurant;
 import com.example.travelshooting.domain.restaurant.service.RestaurantService;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.service.UserService;
+import com.example.travelshooting.global.enums.PaymentStatus;
+import com.example.travelshooting.global.enums.UserRole;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

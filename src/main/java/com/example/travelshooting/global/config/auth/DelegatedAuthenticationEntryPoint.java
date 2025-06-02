@@ -1,4 +1,4 @@
-package com.example.travelshooting.config.auth;
+package com.example.travelshooting.global.config.auth;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

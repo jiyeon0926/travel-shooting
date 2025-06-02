@@ -1,6 +1,6 @@
-package com.example.travelshooting.config.util;
+package com.example.travelshooting.global.config.util;
 
-import com.example.travelshooting.common.Const;
+import com.example.travelshooting.global.common.Const;
 
 public class CacheKeyUtil {
 

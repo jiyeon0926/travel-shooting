@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.comment.dto;
 
 import com.example.travelshooting.domain.comment.entity.Comment;
-import com.example.travelshooting.common.BaseDtoDataType;
+import com.example.travelshooting.global.common.BaseDtoDataType;
 import lombok.Getter;
 
 @Getter

@@ -1,9 +1,9 @@
 package com.example.travelshooting.domain.company.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.company.dto.CompanyResDto;
 import com.example.travelshooting.domain.company.service.CompanyService;
+import com.example.travelshooting.global.common.CommonListResDto;
+import com.example.travelshooting.global.common.CommonResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

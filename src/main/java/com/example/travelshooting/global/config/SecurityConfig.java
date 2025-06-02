@@ -1,4 +1,4 @@
-package com.example.travelshooting.config;
+package com.example.travelshooting.global.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

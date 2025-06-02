@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.payment.repository;
 
-import com.example.travelshooting.enums.PaymentStatus;
 import com.example.travelshooting.domain.payment.entity.Payment;
+import com.example.travelshooting.global.enums.PaymentStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Repository;

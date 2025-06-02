@@ -1,6 +1,6 @@
-package com.example.travelshooting.config;
+package com.example.travelshooting.global.config;
 
-import com.example.travelshooting.common.Const;
+import com.example.travelshooting.global.common.Const;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableAsync;

@@ -1,4 +1,4 @@
-package com.example.travelshooting.config.auth;
+package com.example.travelshooting.global.config.auth;
 
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.repository.UserRepository;

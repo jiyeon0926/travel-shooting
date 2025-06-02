@@ -1,7 +1,7 @@
-package com.example.travelshooting.config.filter;
+package com.example.travelshooting.global.config.filter;
 
-import com.example.travelshooting.config.util.JwtProvider;
-import com.example.travelshooting.enums.AuthenticationScheme;
+import com.example.travelshooting.global.config.util.JwtProvider;
+import com.example.travelshooting.global.enums.AuthenticationScheme;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

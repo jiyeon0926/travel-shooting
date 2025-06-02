@@ -1,6 +1,6 @@
 package com.example.travelshooting.domain.user.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
+import com.example.travelshooting.global.common.BaseDtoDataType;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

@@ -1,4 +1,4 @@
-package com.example.travelshooting.enums;
+package com.example.travelshooting.global.enums;
 
 public enum PaymentStatus {
     READY,

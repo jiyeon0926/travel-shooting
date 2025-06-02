@@ -1,9 +1,9 @@
 package com.example.travelshooting.domain.notification.entity;
 
-import com.example.travelshooting.enums.DomainType;
-import com.example.travelshooting.enums.NotificationStatus;
-import com.example.travelshooting.enums.NotificationType;
 import com.example.travelshooting.domain.user.entity.User;
+import com.example.travelshooting.global.enums.DomainType;
+import com.example.travelshooting.global.enums.NotificationStatus;
+import com.example.travelshooting.global.enums.NotificationType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

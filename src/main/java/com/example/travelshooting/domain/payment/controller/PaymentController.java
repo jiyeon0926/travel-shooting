@@ -1,12 +1,12 @@
 package com.example.travelshooting.domain.payment.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.payment.dto.PaymentCancelResDto;
 import com.example.travelshooting.domain.payment.dto.PaymentCompletedResDto;
 import com.example.travelshooting.domain.payment.dto.PaymentReadyResDto;
 import com.example.travelshooting.domain.payment.dto.PaymentResDto;
 import com.example.travelshooting.domain.payment.service.PaymentService;
+import com.example.travelshooting.global.common.CommonListResDto;
+import com.example.travelshooting.global.common.CommonResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

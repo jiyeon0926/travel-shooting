@@ -1,12 +1,12 @@
 package com.example.travelshooting.domain.notification.service;
 
-import com.example.travelshooting.common.Const;
-import com.example.travelshooting.enums.NotificationStatus;
 import com.example.travelshooting.domain.notification.dto.NotificationResDto;
 import com.example.travelshooting.domain.notification.entity.Notification;
 import com.example.travelshooting.domain.notification.repository.NotificationRepository;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.service.UserService;
+import com.example.travelshooting.global.common.Const;
+import com.example.travelshooting.global.enums.NotificationStatus;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

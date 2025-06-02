@@ -1,9 +1,9 @@
 package com.example.travelshooting.domain.report.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.report.dto.ReportResDto;
 import com.example.travelshooting.domain.report.service.ReportService;
+import com.example.travelshooting.global.common.CommonListResDto;
+import com.example.travelshooting.global.common.CommonResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

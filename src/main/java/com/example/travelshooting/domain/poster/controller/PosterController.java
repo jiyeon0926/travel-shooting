@@ -1,10 +1,10 @@
 package com.example.travelshooting.domain.poster.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.poster.dto.PosterReqDto;
 import com.example.travelshooting.domain.poster.dto.PosterResDto;
 import com.example.travelshooting.domain.poster.service.PosterService;
+import com.example.travelshooting.global.common.CommonListResDto;
+import com.example.travelshooting.global.common.CommonResDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

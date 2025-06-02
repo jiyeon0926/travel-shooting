@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.local.service;
 
-import com.example.travelshooting.common.Const;
 import com.example.travelshooting.domain.local.dto.LocalResDto;
+import com.example.travelshooting.global.common.Const;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.report.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
-import com.example.travelshooting.enums.DomainType;
+import com.example.travelshooting.global.common.BaseDtoDataType;
+import com.example.travelshooting.global.enums.DomainType;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

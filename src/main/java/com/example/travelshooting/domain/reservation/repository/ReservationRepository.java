@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.reservation.repository;
 
-import com.example.travelshooting.enums.ReservationStatus;
 import com.example.travelshooting.domain.reservation.entity.Reservation;
+import com.example.travelshooting.global.enums.ReservationStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

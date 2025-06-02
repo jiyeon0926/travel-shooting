@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.report.repository;
 
-import com.example.travelshooting.enums.DomainType;
 import com.example.travelshooting.domain.report.entity.Report;
+import com.example.travelshooting.global.enums.DomainType;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

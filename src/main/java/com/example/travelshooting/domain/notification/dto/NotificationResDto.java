@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.notification.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
-import com.example.travelshooting.enums.DomainType;
-import com.example.travelshooting.enums.NotificationType;
+import com.example.travelshooting.global.common.BaseDtoDataType;
+import com.example.travelshooting.global.enums.DomainType;
+import com.example.travelshooting.global.enums.NotificationType;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.reservation.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
-import com.example.travelshooting.enums.ReservationStatus;
+import com.example.travelshooting.global.common.BaseDtoDataType;
+import com.example.travelshooting.global.enums.ReservationStatus;
 import com.querydsl.core.annotations.QueryProjection;
 import lombok.Getter;
 

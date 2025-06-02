@@ -1,12 +1,12 @@
 package com.example.travelshooting.domain.reservation.service;
 
-import com.example.travelshooting.enums.ReservationStatus;
 import com.example.travelshooting.domain.notification.service.SendEmailEvent;
 import com.example.travelshooting.domain.reservation.dto.ReservationResDto;
 import com.example.travelshooting.domain.reservation.entity.Reservation;
 import com.example.travelshooting.domain.reservation.repository.ReservationRepository;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.service.UserService;
+import com.example.travelshooting.global.enums.ReservationStatus;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationEventPublisher;

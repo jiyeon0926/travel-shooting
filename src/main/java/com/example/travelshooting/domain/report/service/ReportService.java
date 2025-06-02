@@ -2,8 +2,6 @@ package com.example.travelshooting.domain.report.service;
 
 import com.example.travelshooting.domain.comment.entity.Comment;
 import com.example.travelshooting.domain.comment.service.CommentService;
-import com.example.travelshooting.common.Const;
-import com.example.travelshooting.enums.DomainType;
 import com.example.travelshooting.domain.poster.entity.Poster;
 import com.example.travelshooting.domain.poster.service.PosterService;
 import com.example.travelshooting.domain.report.dto.ReportResDto;
@@ -11,6 +9,8 @@ import com.example.travelshooting.domain.report.entity.Report;
 import com.example.travelshooting.domain.report.repository.ReportRepository;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.service.UserService;
+import com.example.travelshooting.global.common.Const;
+import com.example.travelshooting.global.enums.DomainType;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

@@ -1,4 +1,4 @@
-package com.example.travelshooting.common;
+package com.example.travelshooting.global.common;
 
 import lombok.Getter;
 

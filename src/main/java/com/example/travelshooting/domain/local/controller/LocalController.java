@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.local.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
 import com.example.travelshooting.domain.local.dto.LocalResDto;
 import com.example.travelshooting.domain.local.service.LocalService;
+import com.example.travelshooting.global.common.CommonListResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

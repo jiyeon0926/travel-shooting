@@ -1,6 +1,6 @@
 package com.example.travelshooting.domain.restaurant.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
+import com.example.travelshooting.global.common.BaseDtoDataType;
 import com.querydsl.core.annotations.QueryProjection;
 import lombok.Getter;
 

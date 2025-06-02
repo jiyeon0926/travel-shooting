@@ -1,10 +1,10 @@
 package com.example.travelshooting.domain.reservation.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.reservation.dto.ReservationReqDto;
 import com.example.travelshooting.domain.reservation.dto.ReservationResDto;
 import com.example.travelshooting.domain.reservation.service.ReservationService;
+import com.example.travelshooting.global.common.CommonListResDto;
+import com.example.travelshooting.global.common.CommonResDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

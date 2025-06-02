@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.company.entity;
 
-import com.example.travelshooting.common.BaseEntity;
 import com.example.travelshooting.domain.product.entity.Product;
 import com.example.travelshooting.domain.user.entity.User;
+import com.example.travelshooting.global.common.BaseEntity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

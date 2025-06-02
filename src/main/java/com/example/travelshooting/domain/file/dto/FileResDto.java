@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.file.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
 import com.example.travelshooting.domain.file.entity.LeisureFile;
 import com.example.travelshooting.domain.file.entity.PosterFile;
+import com.example.travelshooting.global.common.BaseDtoDataType;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

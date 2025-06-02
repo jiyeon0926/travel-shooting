@@ -1,9 +1,9 @@
 package com.example.travelshooting.domain.payment.entity;
 
-import com.example.travelshooting.common.BaseEntity;
-import com.example.travelshooting.enums.PaymentStatus;
-import com.example.travelshooting.enums.RefundType;
 import com.example.travelshooting.domain.reservation.entity.Reservation;
+import com.example.travelshooting.global.common.BaseEntity;
+import com.example.travelshooting.global.enums.PaymentStatus;
+import com.example.travelshooting.global.enums.RefundType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

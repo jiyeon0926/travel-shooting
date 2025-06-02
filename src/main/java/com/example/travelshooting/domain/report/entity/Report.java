@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.report.entity;
 
-import com.example.travelshooting.common.BaseEntity;
-import com.example.travelshooting.enums.DomainType;
 import com.example.travelshooting.domain.user.entity.User;
+import com.example.travelshooting.global.common.BaseEntity;
+import com.example.travelshooting.global.enums.DomainType;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

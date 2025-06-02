@@ -1,7 +1,7 @@
-package com.example.travelshooting.config.auth;
+package com.example.travelshooting.global.config.auth;
 
-import com.example.travelshooting.enums.UserRole;
 import com.example.travelshooting.domain.user.entity.User;
+import com.example.travelshooting.global.enums.UserRole;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;

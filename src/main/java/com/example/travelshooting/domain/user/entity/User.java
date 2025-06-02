@@ -1,12 +1,12 @@
 package com.example.travelshooting.domain.user.entity;
 
 import com.example.travelshooting.domain.comment.entity.Comment;
-import com.example.travelshooting.common.BaseEntity;
 import com.example.travelshooting.domain.company.entity.Company;
-import com.example.travelshooting.enums.UserRole;
 import com.example.travelshooting.domain.like.entity.LikePoster;
 import com.example.travelshooting.domain.poster.entity.Poster;
 import com.example.travelshooting.domain.reservation.entity.Reservation;
+import com.example.travelshooting.global.common.BaseEntity;
+import com.example.travelshooting.global.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

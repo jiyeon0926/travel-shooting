@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.notification.repository;
 
-import com.example.travelshooting.enums.NotificationStatus;
 import com.example.travelshooting.domain.notification.entity.Notification;
+import com.example.travelshooting.global.enums.NotificationStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

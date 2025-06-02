@@ -1,7 +1,7 @@
 package com.example.travelshooting.domain.poster.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
 import com.example.travelshooting.domain.poster.entity.Poster;
+import com.example.travelshooting.global.common.BaseDtoDataType;
 import com.querydsl.core.annotations.QueryProjection;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

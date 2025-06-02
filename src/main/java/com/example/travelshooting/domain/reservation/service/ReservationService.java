@@ -1,10 +1,5 @@
 package com.example.travelshooting.domain.reservation.service;
 
-import com.example.travelshooting.common.Const;
-import com.example.travelshooting.config.util.LockKeyUtil;
-import com.example.travelshooting.enums.PaymentStatus;
-import com.example.travelshooting.enums.ReservationStatus;
-import com.example.travelshooting.enums.UserRole;
 import com.example.travelshooting.domain.notification.service.SendEmailEvent;
 import com.example.travelshooting.domain.part.entity.Part;
 import com.example.travelshooting.domain.part.service.PartService;
@@ -14,6 +9,11 @@ import com.example.travelshooting.domain.reservation.entity.Reservation;
 import com.example.travelshooting.domain.reservation.repository.ReservationRepository;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.service.UserService;
+import com.example.travelshooting.global.common.Const;
+import com.example.travelshooting.global.config.util.LockKeyUtil;
+import com.example.travelshooting.global.enums.PaymentStatus;
+import com.example.travelshooting.global.enums.ReservationStatus;
+import com.example.travelshooting.global.enums.UserRole;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.redisson.api.RLock;

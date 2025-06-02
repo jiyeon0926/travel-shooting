@@ -1,6 +1,7 @@
-package com.example.travelshooting.enums;
+package com.example.travelshooting.global.enums;
 
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
+
 import java.util.List;
 
 public enum UserRole {

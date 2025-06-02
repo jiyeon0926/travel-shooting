@@ -1,4 +1,4 @@
-package com.example.travelshooting.config;
+package com.example.travelshooting.global.config;
 
 import com.example.travelshooting.domain.notification.service.NotificationService;
 import com.example.travelshooting.domain.reservation.service.ReservationService;

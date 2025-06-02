@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.payment.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
-import com.example.travelshooting.enums.PaymentStatus;
-import com.example.travelshooting.enums.RefundType;
+import com.example.travelshooting.global.common.BaseDtoDataType;
+import com.example.travelshooting.global.enums.PaymentStatus;
+import com.example.travelshooting.global.enums.RefundType;
 import com.querydsl.core.annotations.QueryProjection;
 import lombok.Getter;
 

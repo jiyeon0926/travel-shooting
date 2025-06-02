@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.file.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
 import com.example.travelshooting.domain.file.dto.FileResDto;
 import com.example.travelshooting.domain.file.service.PosterFileService;
+import com.example.travelshooting.global.common.CommonListResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

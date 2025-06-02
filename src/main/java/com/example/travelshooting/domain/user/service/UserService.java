@@ -1,8 +1,5 @@
 package com.example.travelshooting.domain.user.service;
 
-import com.example.travelshooting.config.util.JwtProvider;
-import com.example.travelshooting.enums.AuthenticationScheme;
-import com.example.travelshooting.enums.UserRole;
 import com.example.travelshooting.domain.file.service.S3Service;
 import com.example.travelshooting.domain.user.dto.ChangePasswordReqDto;
 import com.example.travelshooting.domain.user.dto.JwtAuthResDto;
@@ -10,6 +7,9 @@ import com.example.travelshooting.domain.user.dto.PasswordVrfReqDto;
 import com.example.travelshooting.domain.user.dto.UserResDto;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.repository.UserRepository;
+import com.example.travelshooting.global.config.util.JwtProvider;
+import com.example.travelshooting.global.enums.AuthenticationScheme;
+import com.example.travelshooting.global.enums.UserRole;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.core.RedisTemplate;

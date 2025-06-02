@@ -1,8 +1,11 @@
-package com.example.travelshooting.config.util;
+package com.example.travelshooting.global.config.util;
 
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.repository.UserRepository;
-import io.jsonwebtoken.*;
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.JwtException;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.MalformedJwtException;
 import io.jsonwebtoken.security.Keys;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

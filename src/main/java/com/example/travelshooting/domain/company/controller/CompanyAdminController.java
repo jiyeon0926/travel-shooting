@@ -1,10 +1,10 @@
 package com.example.travelshooting.domain.company.controller;
 
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.company.dto.CompanyReqDto;
 import com.example.travelshooting.domain.company.dto.CompanyResDto;
 import com.example.travelshooting.domain.company.dto.UpdateCompanyReqDto;
 import com.example.travelshooting.domain.company.service.CompanyService;
+import com.example.travelshooting.global.common.CommonResDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

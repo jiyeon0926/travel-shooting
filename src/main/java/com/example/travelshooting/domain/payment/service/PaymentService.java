@@ -1,10 +1,5 @@
 package com.example.travelshooting.domain.payment.service;
 
-import com.example.travelshooting.common.Const;
-import com.example.travelshooting.enums.PaymentStatus;
-import com.example.travelshooting.enums.RefundPolicy;
-import com.example.travelshooting.enums.RefundType;
-import com.example.travelshooting.enums.ReservationStatus;
 import com.example.travelshooting.domain.payment.dto.PaymentCancelResDto;
 import com.example.travelshooting.domain.payment.dto.PaymentCompletedResDto;
 import com.example.travelshooting.domain.payment.dto.PaymentReadyResDto;
@@ -15,6 +10,11 @@ import com.example.travelshooting.domain.reservation.entity.Reservation;
 import com.example.travelshooting.domain.reservation.service.ReservationService;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.service.UserService;
+import com.example.travelshooting.global.common.Const;
+import com.example.travelshooting.global.enums.PaymentStatus;
+import com.example.travelshooting.global.enums.RefundPolicy;
+import com.example.travelshooting.global.enums.RefundType;
+import com.example.travelshooting.global.enums.ReservationStatus;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

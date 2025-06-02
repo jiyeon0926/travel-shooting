@@ -1,6 +1,6 @@
-package com.example.travelshooting.config.exception;
+package com.example.travelshooting.global.config.exception;
 
-import com.example.travelshooting.common.CommonResDto;
+import com.example.travelshooting.global.common.CommonResDto;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.JwtException;
 import org.springframework.http.HttpStatus;

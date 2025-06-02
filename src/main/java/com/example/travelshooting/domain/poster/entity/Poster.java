@@ -1,12 +1,12 @@
 package com.example.travelshooting.domain.poster.entity;
 
 import com.example.travelshooting.domain.comment.entity.Comment;
-import com.example.travelshooting.common.BaseEntity;
 import com.example.travelshooting.domain.file.entity.PosterFile;
 import com.example.travelshooting.domain.like.entity.LikePoster;
 import com.example.travelshooting.domain.payment.entity.Payment;
 import com.example.travelshooting.domain.restaurant.entity.Restaurant;
 import com.example.travelshooting.domain.user.entity.User;
+import com.example.travelshooting.global.common.BaseEntity;
 import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;

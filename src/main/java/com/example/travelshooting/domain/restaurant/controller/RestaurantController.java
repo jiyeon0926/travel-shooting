@@ -1,11 +1,11 @@
 package com.example.travelshooting.domain.restaurant.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.restaurant.dto.GgRestaurantResDto;
 import com.example.travelshooting.domain.restaurant.dto.RestaurantResDto;
 import com.example.travelshooting.domain.restaurant.dto.RestaurantSearchResDto;
 import com.example.travelshooting.domain.restaurant.service.RestaurantService;
+import com.example.travelshooting.global.common.CommonListResDto;
+import com.example.travelshooting.global.common.CommonResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

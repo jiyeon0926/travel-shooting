@@ -1,13 +1,13 @@
 package com.example.travelshooting.domain.company.service;
 
-import com.example.travelshooting.common.Const;
 import com.example.travelshooting.domain.company.dto.CompanyResDto;
 import com.example.travelshooting.domain.company.entity.Company;
 import com.example.travelshooting.domain.company.repository.CompanyRepository;
-import com.example.travelshooting.config.util.CacheKeyUtil;
-import com.example.travelshooting.enums.UserRole;
 import com.example.travelshooting.domain.user.entity.User;
 import com.example.travelshooting.domain.user.service.UserService;
+import com.example.travelshooting.global.common.Const;
+import com.example.travelshooting.global.config.util.CacheKeyUtil;
+import com.example.travelshooting.global.enums.UserRole;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;

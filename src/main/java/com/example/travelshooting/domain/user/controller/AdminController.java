@@ -1,14 +1,17 @@
 package com.example.travelshooting.domain.user.controller;
 
-import com.example.travelshooting.common.CommonResDto;
 import com.example.travelshooting.domain.user.dto.UserReqDto;
 import com.example.travelshooting.domain.user.dto.UserResDto;
 import com.example.travelshooting.domain.user.service.AdminService;
+import com.example.travelshooting.global.common.CommonResDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 @RestController

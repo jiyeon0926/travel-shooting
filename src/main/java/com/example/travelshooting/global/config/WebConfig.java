@@ -1,7 +1,7 @@
-package com.example.travelshooting.config;
+package com.example.travelshooting.global.config;
 
-import com.example.travelshooting.common.Const;
-import com.example.travelshooting.config.filter.JwtAuthFilter;
+import com.example.travelshooting.global.common.Const;
+import com.example.travelshooting.global.config.filter.JwtAuthFilter;
 import jakarta.servlet.DispatcherType;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.security.servlet.PathRequest;

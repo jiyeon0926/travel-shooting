@@ -1,8 +1,8 @@
 package com.example.travelshooting.domain.like.controller;
 
-import com.example.travelshooting.common.CommonListResDto;
 import com.example.travelshooting.domain.like.service.LikePosterService;
 import com.example.travelshooting.domain.poster.dto.PosterResDto;
+import com.example.travelshooting.global.common.CommonListResDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

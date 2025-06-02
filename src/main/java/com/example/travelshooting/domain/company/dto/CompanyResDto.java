@@ -1,6 +1,6 @@
 package com.example.travelshooting.domain.company.dto;
 
-import com.example.travelshooting.common.BaseDtoDataType;
+import com.example.travelshooting.global.common.BaseDtoDataType;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

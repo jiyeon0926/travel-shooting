@@ -1,4 +1,4 @@
-package com.example.travelshooting.config;
+package com.example.travelshooting.global.config;
 
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import jakarta.persistence.EntityManager;
