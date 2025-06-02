@@ -1,7 +1,7 @@
 package com.example.travelshooting.config.auth;
 
-import com.example.travelshooting.user.entity.User;
-import com.example.travelshooting.user.repository.UserRepository;
+import com.example.travelshooting.domain.user.entity.User;
+import com.example.travelshooting.domain.user.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.core.userdetails.UserDetails;

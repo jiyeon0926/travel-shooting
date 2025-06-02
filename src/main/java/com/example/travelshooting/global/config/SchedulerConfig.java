@@ -1,8 +1,8 @@
 package com.example.travelshooting.config;
 
-import com.example.travelshooting.notification.service.NotificationService;
-import com.example.travelshooting.reservation.service.ReservationService;
-import com.example.travelshooting.restaurant.service.RestaurantService;
+import com.example.travelshooting.domain.notification.service.NotificationService;
+import com.example.travelshooting.domain.reservation.service.ReservationService;
+import com.example.travelshooting.domain.restaurant.service.RestaurantService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

@@ -1,5 +1,6 @@
 package com.example.travelshooting.reservation.service;
 
+import com.example.travelshooting.domain.reservation.service.ReservationService;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
