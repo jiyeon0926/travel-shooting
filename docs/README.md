@@ -145,6 +145,15 @@
   </div>
 </details>
 
+<details>
+  <summary><b>맛집 검색</b></summary>
+  <div markdown="1">
+    <p></p>
+    <li>경기데이터드림 경기도 으뜸 맛집 현황 API 데이터를 기반으로 합니다.</li>
+    <li>가게명, 지역(도), 도시(시)를 기준으로 검색할 수 있습니다.</li>
+  </div>
+</details>
+
 ---------
 
 # 👨‍💻 기능별 담당자
