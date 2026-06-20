@@ -3,6 +3,9 @@
 - 협력 업체에서 제공 해주는 레저/티켓 상품을 이용한 사용자들은 포스터를 작성할 수 있습니다.
 - 포스터를 작성하여 다른 사용자들에게 실질적인 여행 정보를 제공하고, 유용한 여행지를 추천합니다.
 
+![Team](https://img.shields.io/badge/Team-4인%20프로젝트-purple)
+![Period](https://img.shields.io/badge/Period-2025.01.02~2025.02.11-green)
+
 ---------
 
 # 🔔 핵심 기능
